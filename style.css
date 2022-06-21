@@ -1,0 +1,55 @@
+
+ h1 {
+  font-size: 40px;
+  max-width: 1400px;
+  text-align:left;
+}
+.main {
+  margin: 20px;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.cards.card {
+  margin-right: 20px;
+}
+.cards.card img {
+  width: 250px;
+}
+#head {
+  text-align: center;
+}
+.product {
+  width: 40%;
+  border: 1p solid red 
+}
+
+.delete-btn {
+  border-color: #f44336;
+  color: red;
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+.delete-btn:hover {
+  background: #f44336;
+  color: white;
+}
+body{
+  background: url(https://archzine.fr/wp-content/uploads/2021/09/bienfaits-chocolat-noir-astuces-pour-choisir-le-meilleur-chocolat.jpeg)no-repeat;
+  background-size: cover;
+}
+h4{
+  font-size: 18px;
+  color: #000;
+  letter-spacing: 2px;
+  font-family: 'Lato',sans-serif;
+}
